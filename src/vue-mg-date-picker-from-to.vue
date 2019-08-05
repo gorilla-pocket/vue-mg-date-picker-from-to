@@ -4,20 +4,20 @@
         {{label}}
     </div>
     <div class="">
-        <date-picker-normal v-model="from" />
+        <date-picker-standard v-model="from" />
     </div>
     <div class="align-self-center mx-2">
         ～
     </div>
     <div class="mr-0">
-        <date-picker-normal v-model="to" />
+        <date-picker-standard v-model="to" />
     </div>
 </div>
 </template>
 
 <script>
 import moment from 'moment';
-import DatePickerNormal from 'vue-mg-date-picker-normal'
+import DatePickerStandard from 'vue-mg-date-picker-standard'
 export default {
     props: [
         'label',
@@ -70,7 +70,7 @@ export default {
         //
     },
     components: {
-        DatePickerNormal,
+        DatePickerStandard,
     }
 }
 </script>

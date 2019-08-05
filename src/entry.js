@@ -1,5 +1,5 @@
 // Import vue component
-import component from './vue-mg-datd-picker-from-to.vue';
+import component from './vue-mg-date-picker-from-to.vue';
 
 // install function executed by Vue.use()
 function install(Vue) {
