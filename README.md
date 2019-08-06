@@ -1,4 +1,4 @@
-# vue-mg-date-picker-normal
+# vue-mg-date-picker-from-to
 
 ## Installation
 
