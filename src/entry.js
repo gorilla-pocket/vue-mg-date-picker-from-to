@@ -5,7 +5,7 @@ import component from './vue-mg-date-picker-from-to.vue';
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('VueMgDatdPickerFromTo', component);
+  Vue.component('VueMgDatePickerFromTo', component);
 }
 
 // Create module definition for Vue.use()

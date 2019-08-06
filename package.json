@@ -1,11 +1,11 @@
 {
-  "name": "vue-mg-datd-picker-from-to",
+  "name": "vue-mg-date-picker-from-to",
   "version": "1.0.1",
   "description": "",
   "license": "MIT",
-  "main": "dist/vue-mg-datd-picker-from-to.ssr.js",
-  "module": "dist/vue-mg-datd-picker-from-to.esm.js",
-  "unpkg": "dist/vue-mg-datd-picker-from-to.min.js",
+  "main": "dist/vue-mg-date-picker-from-to.ssr.js",
+  "module": "dist/vue-mg-date-picker-from-to.esm.js",
+  "unpkg": "dist/vue-mg-date-picker-from-to.min.js",
   "files": [
     "dist/*",
     "src/**/*.vue"

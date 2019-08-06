@@ -46,7 +46,7 @@ if (!argv.format || argv.format === 'es') {
   const esConfig = {
     ...baseConfig,
     output: {
-      file: 'dist/vue-mg-datd-picker-from-to.esm.js',
+      file: 'dist/vue-mg-date-picker-from-to.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -70,9 +70,9 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-mg-datd-picker-from-to.ssr.js',
+      file: 'dist/vue-mg-date-picker-from-to.ssr.js',
       format: 'cjs',
-      name: 'VueMgDatdPickerFromTo',
+      name: 'VueMgDatePickerFromTo',
       exports: 'named',
       globals,
     },
@@ -97,9 +97,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-mg-datd-picker-from-to.min.js',
+      file: 'dist/vue-mg-date-picker-from-to.min.js',
       format: 'iife',
-      name: 'VueMgDatdPickerFromTo',
+      name: 'VueMgDatePickerFromTo',
       exports: 'named',
       globals,
     },
