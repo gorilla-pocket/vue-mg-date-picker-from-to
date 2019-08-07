@@ -1,6 +1,7 @@
 <template>
   <section class="container">
-    <date-picker-from-to :label="label" :from_dt="from" :to_dt="to"/>
+    <date-picker-from-to :label="label" :from_dt.sync="from" :to_dt.sync="to"/>
+    <span>from: {{from}} to: {{to}}</span>
   </section>
 </template>
 

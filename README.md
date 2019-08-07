@@ -20,7 +20,7 @@ Example:
 ```
 <template>
     <section class="container">
-        <date-picker-from-to :label="label" :from_dt="from_dt" :to_dt="to_dt"/>
+        <date-picker-from-to :label="label" :from_dt.sync="from_dt" :to_dt.sync="to_dt"/>
     </section>
 </template>
 
