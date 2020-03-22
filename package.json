@@ -21,11 +21,14 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
-    "vue-mg-date-picker-standard": "^1.0.0"
+    "vue-mg-date-picker-standard": "^1.0.2"
   },
   "devDependencies": {
+    "bootstrap": "^4.4.1",
     "cross-env": "^5.2.0",
-    "minimist": "^1.2.0",
+    "jquery": "^3.4.1",
+    "minimist": "^1.2.5",
+    "popper.js": "^1.16.1",
     "rollup": "^1.12.1",
     "rollup-plugin-buble": "^0.19.6",
     "rollup-plugin-commonjs": "^10.0.0",

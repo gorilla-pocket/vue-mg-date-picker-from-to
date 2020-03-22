@@ -10,6 +10,7 @@
 
 <script>
 import DatePickerFromTo from '../src/vue-mg-date-picker-from-to'
+import 'bootstrap/dist/css/bootstrap.min.css'
 export default {
   data() {
     return {
